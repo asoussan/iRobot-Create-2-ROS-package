@@ -33,4 +33,4 @@ Once the rosmaster is launched, we can run the publisher in a separate window by
 ### **Subscriber (ir_sub)**
 The subscriber indicates which message the program will subscribe, in this case, *ir_val* is the message from the publisher. This program allows us to obtain the data from the six IR sensors in order to be used for other tasks, such as controlling the motor speeed for navigation. The result of the subscriber should be similar to that of the publisher, and output "I receive [0,0,0,0,0,0] when nothing is obstructing the iRobot.
 
-Similar to the publisher, we will run the subscriber in a separate window by typing "rosrun *package_name* sub.py". The publisher and subscriber should be placed into the same package.
+Similar to the publisher, we will run the subscriber in a separate window by entering "rosrun *package_name* sub.py". The publisher and subscriber should be placed into the same package.
