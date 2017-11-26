@@ -22,7 +22,7 @@ http://wiki.ros.org/Installation/UbuntuARM
 Pycreate2 Python Package: 
 https://pypi.python.org/pypi/pycreate2
 
-**Be sure to run roscore so nodes can communicate through master!**
+**Be sure to run "roscore" so nodes can communicate through master!**
 
 ## ROS
 ### **Publisher (ir_pub)**
