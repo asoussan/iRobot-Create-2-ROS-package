@@ -17,7 +17,7 @@ https://www.amazon.com/CanaKit-Raspberry-Complete-Starter-Kit/dp/B01C6Q2GSY
 ROS Kinetic:
 http://wiki.ros.org/Installation/UbuntuARM
 
-**Also use this http://wiki.ros.org for all things ROS related - like setting up packages and workspace**
+**Also visit http://wiki.ros.org for all things ROS related - like setting up packages and workspace**
 
 Pycreate2 Python Package: 
 https://pypi.python.org/pypi/pycreate2
