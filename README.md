@@ -41,6 +41,7 @@ catkin_make
 source /devel/setup.bash
 
 ### **Create Package**
+In order to create the package, the following commands should be typed into the terminal:
 cd ~/irobot/src
 git clone https://github.com/asoussan/iRobot-Create-2-ROS-package
 cd ~/irobot
@@ -48,6 +49,7 @@ rosdep update
 rosdep install --from-path src -i -y
 catkin_make
 source /devel/setup.bash
+
 ### **Publisher (ir_pub)**
 The publisher initializes the node and defines the frequency of the message. The serial port of the Raspberry Pi is defined here as well as the baud rate. This progran also starts the iRobot and sets it to __full__ mode. A value indicating the distance of an object from each sensor in a 1x6 array is the message. The sensor sate is initialized to [0,0,0,0,0,0] when nothing is obstructing, but a higher value indicates an object is closer. Until the program is shut down, each sensor state will continuously update at a given frequency.
 
