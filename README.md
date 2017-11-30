@@ -24,7 +24,7 @@ https://pypi.python.org/pypi/pycreate2
 
 **Be sure to run "roscore" so nodes can communicate through master!**
 
-Be sure to set these environment variables by adding the following to .bashrc:
+Be sure to set these environment variables by adding the following to .bashrc: 
 export ROS_MASTER_URI=http://<ip_address>:11311
 export ROS_IP=<ip_address>
 source ./.bashrc
@@ -32,7 +32,7 @@ source ./.bashrc
 ## ROS
 
 ### **Initialize Workspace**
-In order to set up the workspace, the following commands should be typed into the terminal:
+In order to set up the workspace, the following commands should be typed into the terminal: 
 mkdir ~/irobot/src
 cd ~/irobot/src
 catkin_init_workspace
@@ -41,7 +41,7 @@ catkin_make
 source /devel/setup.bash
 
 ### **Create Package**
-In order to create the package, the following commands should be typed into the terminal:
+In order to create the package, the following commands should be typed into the terminal: 
 cd ~/irobot/src
 git clone https://github.com/asoussan/iRobot-Create-2-ROS-package
 cd ~/irobot
