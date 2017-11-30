@@ -24,16 +24,16 @@ https://pypi.python.org/pypi/pycreate2
 
 **Be sure to run "roscore" so nodes can communicate through master!**
 
-Be sure to set these environment variables by adding the following to .bashrc: 
-export ROS_MASTER_URI=http://<ip_address>:11311 
-export ROS_IP=<ip_address> 
-source ./.bashrc 
+Be sure to set these environment variables by adding the following to .bashrc:  
+export ROS_MASTER_URI=http://<ip_address>:11311  
+export ROS_IP=<ip_address>  
+source ./.bashrc  
 
 ## ROS
 
 ### **Initialize Workspace**
 In order to set up the workspace, the following commands should be typed into the terminal:  
-mkdir ~/irobot/src 
+mkdir ~/irobot/src  
 cd ~/irobot/src  
 catkin_init_workspace  
 cd ..  
